@@ -1,0 +1,6 @@
+Invoking command in '/home/tech/ros2/my_first_ws/build/my_package_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tech/ros2/my_first_ws/src/my_package_msgs -DCMAKE_INSTALL_PREFIX=/home/tech/ros2/my_first_ws/install/my_package_msgs
+Invoked command in '/home/tech/ros2/my_first_ws/build/my_package_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tech/ros2/my_first_ws/src/my_package_msgs -DCMAKE_INSTALL_PREFIX=/home/tech/ros2/my_first_ws/install/my_package_msgs
+Invoking command in '/home/tech/ros2/my_first_ws/build/my_package_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tech/ros2/my_first_ws/build/my_package_msgs -- -j24 -l24
+Invoked command in '/home/tech/ros2/my_first_ws/build/my_package_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tech/ros2/my_first_ws/build/my_package_msgs -- -j24 -l24
+Invoking command in '/home/tech/ros2/my_first_ws/build/my_package_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tech/ros2/my_first_ws/build/my_package_msgs
+Invoked command in '/home/tech/ros2/my_first_ws/build/my_package_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tech/ros2/my_first_ws/build/my_package_msgs

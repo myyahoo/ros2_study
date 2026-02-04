@@ -1,0 +1,11 @@
+# Request: Enable/disable parameters
+string camera_id
+bool enable_rgb
+bool enable_depth
+bool enable_ir
+uint32 rgb_fps
+uint32 depth_fps
+---
+# Response: Configuration result
+bool success
+string message

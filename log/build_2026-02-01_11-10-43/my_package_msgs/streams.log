@@ -1,0 +1,6 @@
+[0.011s] Invoking command in '/home/tech/ros2/my_first_ws/build/my_package_msgs': /usr/bin/cmake --build /home/tech/ros2/my_first_ws/build/my_package_msgs -- -j24 -l24
+[0.015s] [0mCMake Error: The current CMakeCache.txt directory /home/tech/ros2/my_first_ws/build/my_package_msgs/CMakeCache.txt is different than the directory /root/ros2/build/my_package_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.026s] [0mCMake Error: The source directory "/root/ros2/src/my_package_msgs" does not exist.
+[0.026s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.027s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
+[0.029s] Invoked command in '/home/tech/ros2/my_first_ws/build/my_package_msgs' returned '2': /usr/bin/cmake --build /home/tech/ros2/my_first_ws/build/my_package_msgs -- -j24 -l24

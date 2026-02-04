@@ -1,0 +1,4 @@
+# 그리퍼 제어 서비스
+---
+bool success
+string message

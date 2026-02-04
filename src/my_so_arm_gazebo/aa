@@ -1,0 +1,4 @@
+ros2 에서 moveIt2 와 gazebo 를 사용해서  6dofs 로봇 팔을 만들고 싶어
+- 개발환경은 ubuntu 24.04 ,  ros2 jazzy
+- 카메라는 1개 달려있어.
+- gazebo 를 포함한 

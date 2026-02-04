@@ -1,0 +1,26 @@
+# Robot Arm Control 패키지 필수 및 선택 의존성
+
+# 필수 패키지
+rclpy>=0.13.0          # ROS2 Python 클라이언트
+geometry-msgs>=0.0.3   # ROS2 기하학 메시지
+sensor-msgs>=0.0.5     # ROS2 센서 메시지
+std-msgs>=0.0.3        # ROS2 표준 메시지
+numpy>=1.21.0          # 수치 연산
+
+# Vision 처리 (선택)
+opencv-python>=4.5.0   # OpenCV 핵심 라이브러리
+opencv-contrib-python>=4.5.0  # OpenCV 추가 모듈
+
+# YOLO 감지 (선택)
+torch>=1.9.0           # PyTorch 머신러닝 프레임워크
+torchvision>=0.10.0    # PyTorch Vision 라이브러리
+ultralytics>=8.0.0     # Ultralytics YOLO 라이브러리
+
+# ROS2 브릿지 (선택)
+cv-bridge>=3.0.0       # ROS2 OpenCV 브릿지
+
+# 개발 및 테스트 도구 (선택)
+pytest>=6.0.0          # 테스트 프레임워크
+pytest-cov>=2.12.0     # 테스트 커버리지
+black>=21.0            # 코드 포매터
+flake8>=3.9.0          # 코드 린터

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<robot name="so_arm">
+
+  <!-- Define planning groups -->
+  <group name="manipulator">
+    <joint name="shoulder_pan_joint"/>
+    <joint name="shoulder_lift_joint"/>
+    <joint name="elbow_joint"/>
+    <joint name="wrist_1_joint"/>
+    <joint name="wrist_2_joint"/>
+    <joint name="wrist_3_joint"/>
+  </group>
+
+  <!-- Define group states (home position) -->
+  <group_state name="home" group="manipulator">
+    <joint name="shoulder_pan_joint" value="0"/>
+    <joint name="shoulder_lift_joint" value="0"/>
+    <joint name="elbow_joint" value="0"/>
+    <joint name="wrist_1_joint" value="0"/>
+    <joint name="wrist_2_joint" value="0"/>
+    <joint name="wrist_3_joint" value="0"/>
+  </group_state>
+
+  <!-- Define group state for ready position -->
+  <group_state name="ready" group="manipulator">
+    <joint name="shoulder_pan_joint" value="0"/>
+    <joint name="shoulder_lift_joint" value="-0.785"/>
+    <joint name="elbow_joint" value="1.57"/>
+    <joint name="wrist_1_joint" value="0"/>
+    <joint name="wrist_2_joint" value="-0.785"/>
+    <joint name="wrist_3_joint" value="0"/>
+  </group_state>
+
+  <!-- Define end effector -->
+  <end_effector name="end_effector" parent_link="link_6" group="manipulator"/>
+
+  <!-- Virtual joints -->
+  <virtual_joint name="virtual_base_joint" type="planar" parent_frame="world" child_frame="base_link"/>
+
+  <!-- Define passive joints (if any) -->
+  <!-- None in this case -->
+
+</robot>

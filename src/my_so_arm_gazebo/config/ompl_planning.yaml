@@ -1,0 +1,48 @@
+planning_plugin: ompl_planning_interface/OMPLPlanner
+request_adapters: default_planner_request_adapters/AddTimeOptimalParameterization default_planner_request_adapters/ValidateWorkspaceBounds default_planner_request_adapters/FixWorkspaceBounds default_planner_request_adapters/FixStartStateBounds default_planner_request_adapters/FixStartStateCollision default_planner_request_adapters/FixStartStatePathConstraints
+start_state_max_bounds_error: 0.1
+jiggle_fraction: 0.05
+max_planning_time: 5.0
+max_solution_cost: 1e4
+simplify_solutions: true
+
+planner_configs:
+  SBL:
+    type: geometric::SBL
+    range: 0.0 # Max motion in meters; omitted default is 50% of longest diagonal of config C-space extent
+  EST:
+    type: geometric::EST
+    range: 0.0 # Max motion in meters; omitted default is 50% of longest diagonal of config C-space extent
+    goal_bias: 0.05 # When close to goal select goal, with this probability?.
+  BKPiece:
+    type: geometric::BKPiece
+    range: 0.0 # Collisions checks /sample removed. Good to check.
+    border_fraction: 0.9 # Controls the ratio between free space and border (P.95)
+    failed_expansion_score_factor: 0.5 # When extending motion fails, scale score by factor.
+    min_valid_path_fraction: 0.5 # Accept partially valid moves above fraction.
+  KPiece:
+    type: geometric::KPiece
+    range: 0.0 # Max motion in meters; omitted default is 50% of longest diagonal of config C-space extent
+    goal_bias: 0.05 # When close to goal select goal, with this probability?.
+    border_fraction: 0.9 # Controls the ratio between free space and border (P.95)
+    failed_expansion_score_factor: 0.5 # When extending motion fails, scale score by factor.
+    min_valid_path_fraction: 0.5 # Accept partially valid moves above fraction.
+  RRT:
+    type: geometric::RRT
+    range: 0.0 # Max motion in meters; omitted default is 50% of longest diagonal of config C-space extent
+    goal_bias: 0.05 # When close to goal select goal, with this probability?.
+  RRTConnect:
+    type: geometric::RRTConnect
+    range: 0.0 # Max motion in meters; omitted default is 50% of longest diagonal of config C-space extent
+    max_nearest_neighbors: 20 # Use also as heuristic to bound max distance to neighbors
+  RRTstar:
+    type: geometric::RRTstar
+    range: 0.0 # Max motion in meters; omitted default is 50% of longest diagonal of config C-space extent
+    goal_bias: 0.05 # When close to goal select goal, with this probability?.
+    delay_collision_checking: 1
+    focus_search: false # default false, "Use the additional samples around goals"
+    max_nearest_neighbors: 0 # Return all neighbors. prev: 20
+    costConvergenceTolerance: 0.001 # parameter used to decide if the optimizer should stop
+  PRMstar:
+    type: geometric::PRMstar
+    max_nearest_neighbors: 20 # Return all neighbors. prev: 20

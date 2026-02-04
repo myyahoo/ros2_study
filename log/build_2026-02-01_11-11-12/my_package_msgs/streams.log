@@ -1,0 +1,33 @@
+[0.006s] Invoking command in '/home/tech/ros2/my_first_ws/build/my_package_msgs': /usr/bin/cmake /home/tech/ros2/my_first_ws/src/my_package_msgs -DCMAKE_INSTALL_PREFIX=/home/tech/ros2/my_first_ws/install/my_package_msgs
+[0.101s] -- The C compiler identification is GNU 11.4.0
+[0.174s] -- The CXX compiler identification is GNU 11.4.0
+[0.182s] -- Detecting C compiler ABI info
+[0.235s] -- Detecting C compiler ABI info - done
+[0.241s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.242s] -- Detecting C compile features
+[0.243s] -- Detecting C compile features - done
+[0.245s] -- Detecting CXX compiler ABI info
+[0.293s] -- Detecting CXX compiler ABI info - done
+[0.300s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.300s] -- Detecting CXX compile features
+[0.300s] -- Detecting CXX compile features - done
+[0.312s] -- Configuring incomplete, errors occurred!
+[0.312s] See also "/home/tech/ros2/my_first_ws/build/my_package_msgs/CMakeFiles/CMakeOutput.log".
+[0.313s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.313s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.313s]   has asked CMake to find a package configuration file provided by
+[0.313s]   "ament_cmake", but CMake did not find one.
+[0.313s] 
+[0.313s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.313s]   any of the following names:
+[0.313s] 
+[0.313s]     ament_cmakeConfig.cmake
+[0.313s]     ament_cmake-config.cmake
+[0.313s] 
+[0.313s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.313s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.313s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.313s]   has been installed.
+[0.314s] 
+[0.314s] [0m
+[0.315s] Invoked command in '/home/tech/ros2/my_first_ws/build/my_package_msgs' returned '1': /usr/bin/cmake /home/tech/ros2/my_first_ws/src/my_package_msgs -DCMAKE_INSTALL_PREFIX=/home/tech/ros2/my_first_ws/install/my_package_msgs

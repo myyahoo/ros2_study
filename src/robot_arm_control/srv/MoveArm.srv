@@ -1,0 +1,6 @@
+# 로봇 암 이동 서비스
+geometry_msgs/Pose target_pose  # 목표 위치/자세
+---
+bool success
+string message
+float32[6] computed_angles      # 계산된 관절 각도

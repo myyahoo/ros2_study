@@ -1,0 +1,13 @@
+# Request: Get camera info
+string camera_id
+---
+# Response: Camera information
+string camera_model
+string serial_number
+float64 fx
+float64 fy
+float64 cx
+float64 cy
+float64 baseline
+uint32 width
+uint32 height

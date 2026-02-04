@@ -1,0 +1,264 @@
+[0.000000] (-) TimerEvent: {}
+[0.000548] (-) JobUnselected: {'identifier': 'camera_3d_pkg'}
+[0.000602] (-) JobUnselected: {'identifier': 'camera_3d_pkg1'}
+[0.000631] (-) JobUnselected: {'identifier': 'my_opencv_pkg'}
+[0.000654] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000674] (-) JobUnselected: {'identifier': 'my_so_arm_gazebo'}
+[0.000696] (-) JobUnselected: {'identifier': 'robot_arm_control'}
+[0.000716] (-) JobUnselected: {'identifier': 'so_arm101_pkg'}
+[0.000736] (-) JobUnselected: {'identifier': 'yolo_bringup'}
+[0.000757] (-) JobUnselected: {'identifier': 'yolo_msgs'}
+[0.000776] (-) JobUnselected: {'identifier': 'yolo_ros'}
+[0.000800] (my_package_msgs) JobQueued: {'identifier': 'my_package_msgs', 'dependencies': OrderedDict()}
+[0.000827] (my_package_msgs) JobStarted: {'identifier': 'my_package_msgs'}
+[0.006102] (my_package_msgs) JobProgress: {'identifier': 'my_package_msgs', 'progress': 'cmake'}
+[0.006251] (my_package_msgs) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2/src/my_package_msgs', '-DCMAKE_INSTALL_PREFIX=/root/ros2/install/my_package_msgs'], 'cwd': '/root/ros2/build/my_package_msgs', 'env': OrderedDict([('HOSTNAME', 'acer-notebook'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2/install/my_package_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('YOLO_CONFIG_DIR', '/tmp/Ultralytics'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2/install/my_package:/root/ros2/install/my_package_msg:/opt/ros/humble'), ('PWD', '/root/ros2/build/my_package_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2/install/my_package/lib/python3.10/site-packages:/root/ros2/install/my_package_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2/install/my_package_msg:/root/ros2/install/my_package:/opt/ros/humble')]), 'shell': False}
+[0.051982] (my_package_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.087045] (my_package_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.091737] (my_package_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099770] (-) TimerEvent: {}
+[0.136959] (my_package_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.142650] (my_package_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.143048] (my_package_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.143191] (my_package_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.143947] (my_package_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.193969] (my_package_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.199834] (-) TimerEvent: {}
+[0.200377] (my_package_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.200556] (my_package_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.200821] (my_package_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.202130] (my_package_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.284174] (my_package_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.299911] (-) TimerEvent: {}
+[0.339065] (my_package_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.340860] (my_package_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.344750] (my_package_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.367351] (my_package_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400095] (-) TimerEvent: {}
+[0.500429] (-) TimerEvent: {}
+[0.532841] (my_package_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.600507] (-) TimerEvent: {}
+[0.657658] (my_package_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.700590] (-) TimerEvent: {}
+[0.800804] (-) TimerEvent: {}
+[0.801238] (my_package_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.815027] (my_package_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[0.817537] (my_package_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.830966] (my_package_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[0.831088] (my_package_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.831150] (my_package_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.831215] (my_package_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.841697] (my_package_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[0.857985] (my_package_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.868399] (my_package_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.868862] (my_package_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.870003] (my_package_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.882084] (my_package_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[0.886671] (my_package_msgs) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2/build/my_package_msgs\n'}
+[0.890245] (my_package_msgs) CommandEnded: {'returncode': 0}
+[0.890555] (my_package_msgs) JobProgress: {'identifier': 'my_package_msgs', 'progress': 'build'}
+[0.892087] (my_package_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2/build/my_package_msgs', '--', '-j24', '-l24'], 'cwd': '/root/ros2/build/my_package_msgs', 'env': OrderedDict([('HOSTNAME', 'acer-notebook'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2/install/my_package_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('YOLO_CONFIG_DIR', '/tmp/Ultralytics'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2/install/my_package:/root/ros2/install/my_package_msg:/opt/ros/humble'), ('PWD', '/root/ros2/build/my_package_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2/install/my_package/lib/python3.10/site-packages:/root/ros2/install/my_package_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2/install/my_package_msg:/root/ros2/install/my_package:/opt/ros/humble')]), 'shell': False}
+[0.900889] (-) TimerEvent: {}
+[0.921955] (my_package_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.927037] (my_package_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.934912] (my_package_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_my_package_msgs\n'}
+[1.001483] (-) TimerEvent: {}
+[1.051791] (my_package_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.052260] (my_package_msgs) StdoutLine: {'line': b'creating my_package_msgs.egg-info\n'}
+[1.052390] (my_package_msgs) StdoutLine: {'line': b'writing my_package_msgs.egg-info/PKG-INFO\n'}
+[1.052466] (my_package_msgs) StdoutLine: {'line': b'writing dependency_links to my_package_msgs.egg-info/dependency_links.txt\n'}
+[1.052531] (my_package_msgs) StdoutLine: {'line': b'writing top-level names to my_package_msgs.egg-info/top_level.txt\n'}
+[1.052600] (my_package_msgs) StdoutLine: {'line': b"writing manifest file 'my_package_msgs.egg-info/SOURCES.txt'\n"}
+[1.053274] (my_package_msgs) StdoutLine: {'line': b"reading manifest file 'my_package_msgs.egg-info/SOURCES.txt'\n"}
+[1.053413] (my_package_msgs) StdoutLine: {'line': b"writing manifest file 'my_package_msgs.egg-info/SOURCES.txt'\n"}
+[1.068459] (my_package_msgs) StdoutLine: {'line': b'[  6%] Built target my_package_msgs__cpp\n'}
+[1.072269] (my_package_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_my_package_msgs_egg\n'}
+[1.075435] (my_package_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/my_package_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_package_msgs/msg/detail/cmd_and_pose_vel__functions.c.o\x1b[0m\n'}
+[1.075593] (my_package_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.075662] (my_package_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.076233] (my_package_msgs) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.101907] (-) TimerEvent: {}
+[1.107080] (my_package_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libmy_package_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[1.136831] (my_package_msgs) StdoutLine: {'line': b'[ 22%] Built target my_package_msgs__rosidl_generator_c\n'}
+[1.144003] (my_package_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.144150] (my_package_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.144285] (my_package_msgs) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.202358] (-) TimerEvent: {}
+[1.207345] (my_package_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/my_package_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_package_msgs/msg/cmd_and_pose_vel__type_support.cpp.o\x1b[0m\n'}
+[1.231969] (my_package_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_package_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_package_msgs/msg/detail/dds_fastrtps/cmd_and_pose_vel__type_support.cpp.o\x1b[0m\n'}
+[1.237770] (my_package_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/my_package_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_package_msgs/msg/detail/cmd_and_pose_vel__type_support.cpp.o\x1b[0m\n'}
+[1.298166] (my_package_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/my_package_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_package_msgs/msg/detail/cmd_and_pose_vel__type_support.c.o\x1b[0m\n'}
+[1.299231] (my_package_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/my_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_package_msgs/msg/cmd_and_pose_vel__type_support.cpp.o\x1b[0m\n'}
+[1.302592] (-) TimerEvent: {}
+[1.304459] (my_package_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/my_package_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_package_msgs/msg/detail/cmd_and_pose_vel__type_support_c.cpp.o\x1b[0m\n'}
+[1.333403] (my_package_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C shared library libmy_package_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.333597] (my_package_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libmy_package_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.362318] (my_package_msgs) StdoutLine: {'line': b'[ 58%] Built target my_package_msgs__rosidl_typesupport_introspection_c\n'}
+[1.370046] (my_package_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libmy_package_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.370216] (my_package_msgs) StdoutLine: {'line': b'[ 61%] Built target my_package_msgs__rosidl_typesupport_c\n'}
+[1.403019] (-) TimerEvent: {}
+[1.407145] (my_package_msgs) StdoutLine: {'line': b'[ 61%] Built target my_package_msgs__rosidl_typesupport_cpp\n'}
+[1.461315] (my_package_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libmy_package_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.463135] (my_package_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libmy_package_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.487195] (my_package_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmy_package_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.492242] (my_package_msgs) StdoutLine: {'line': b'[ 70%] Built target my_package_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.503177] (-) TimerEvent: {}
+[1.514402] (my_package_msgs) StdoutLine: {'line': b'[ 70%] Built target my_package_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.533013] (my_package_msgs) StdoutLine: {'line': b'[ 70%] Built target my_package_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.547989] (my_package_msgs) StdoutLine: {'line': b'[ 70%] Built target my_package_msgs\n'}
+[1.558858] (my_package_msgs) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[1.603238] (-) TimerEvent: {}
+[1.686237] (my_package_msgs) StdoutLine: {'line': b'[ 74%] Built target my_package_msgs__py\n'}
+[1.698842] (my_package_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/my_package_msgs__rosidl_generator_py.dir/rosidl_generator_py/my_package_msgs/msg/_cmd_and_pose_vel_s.c.o\x1b[0m\n'}
+[1.703293] (-) TimerEvent: {}
+[1.754684] (my_package_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_package_msgs/libmy_package_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[1.783179] (my_package_msgs) StdoutLine: {'line': b'[ 80%] Built target my_package_msgs__rosidl_generator_py\n'}
+[1.798855] (my_package_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/my_package_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_package_msgs/_my_package_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[1.800053] (my_package_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/my_package_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_package_msgs/_my_package_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[1.802468] (my_package_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/my_package_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_package_msgs/_my_package_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[1.803698] (-) TimerEvent: {}
+[1.861917] (my_package_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_package_msgs/my_package_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.863626] (my_package_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_package_msgs/my_package_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.863770] (my_package_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_package_msgs/my_package_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.885327] (my_package_msgs) StdoutLine: {'line': b'[100%] Built target my_package_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.886045] (my_package_msgs) StdoutLine: {'line': b'[100%] Built target my_package_msgs__rosidl_typesupport_c__pyext\n'}
+[1.892289] (my_package_msgs) StdoutLine: {'line': b'[100%] Built target my_package_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[1.903029] (my_package_msgs) CommandEnded: {'returncode': 0}
+[1.903765] (-) TimerEvent: {}
+[1.904287] (my_package_msgs) JobProgress: {'identifier': 'my_package_msgs', 'progress': 'install'}
+[1.913654] (my_package_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2/build/my_package_msgs'], 'cwd': '/root/ros2/build/my_package_msgs', 'env': OrderedDict([('HOSTNAME', 'acer-notebook'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2/install/my_package_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('YOLO_CONFIG_DIR', '/tmp/Ultralytics'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2/install/my_package:/root/ros2/install/my_package_msg:/opt/ros/humble'), ('PWD', '/root/ros2/build/my_package_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2/install/my_package/lib/python3.10/site-packages:/root/ros2/install/my_package_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2/install/my_package_msg:/root/ros2/install/my_package:/opt/ros/humble')]), 'shell': False}
+[1.922304] (my_package_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.922463] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/ament_index/resource_index/rosidl_interfaces/my_package_msgs\n'}
+[1.922550] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs\n'}
+[1.922626] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg\n'}
+[1.922689] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.922737] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg/detail\n'}
+[1.922784] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg/detail/cmd_and_pose_vel__functions.c\n'}
+[1.922829] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg/detail/cmd_and_pose_vel__struct.h\n'}
+[1.922887] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg/detail/cmd_and_pose_vel__type_support.h\n'}
+[1.922924] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg/detail/cmd_and_pose_vel__functions.h\n'}
+[1.922964] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg/cmd_and_pose_vel.h\n'}
+[1.923003] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/environment/library_path.sh\n'}
+[1.923072] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/environment/library_path.dsv\n'}
+[1.923113] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/lib/libmy_package_msgs__rosidl_generator_c.so\n'}
+[1.923168] (my_package_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2/install/my_package_msgs/lib/libmy_package_msgs__rosidl_generator_c.so" to ""\n'}
+[1.923213] (my_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs\n'}
+[1.923249] (my_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg\n'}
+[1.923284] (my_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg/detail\n'}
+[1.923322] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_fastrtps_c.h\n'}
+[1.923364] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.923422] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/lib/libmy_package_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.923465] (my_package_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2/install/my_package_msgs/lib/libmy_package_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[1.923508] (my_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs\n'}
+[1.923548] (my_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg\n'}
+[1.923605] (my_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg/detail\n'}
+[1.923643] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_introspection_c.h\n'}
+[1.923679] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg/detail/cmd_and_pose_vel__type_support.c\n'}
+[1.923719] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.923762] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/lib/libmy_package_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.923831] (my_package_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2/install/my_package_msgs/lib/libmy_package_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[1.923885] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/lib/libmy_package_msgs__rosidl_typesupport_c.so\n'}
+[1.923957] (my_package_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2/install/my_package_msgs/lib/libmy_package_msgs__rosidl_typesupport_c.so" to ""\n'}
+[1.924017] (my_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs\n'}
+[1.924063] (my_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg\n'}
+[1.924108] (my_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg/detail\n'}
+[1.924152] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg/detail/cmd_and_pose_vel__traits.hpp\n'}
+[1.924195] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg/detail/cmd_and_pose_vel__type_support.hpp\n'}
+[1.924270] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg/detail/cmd_and_pose_vel__struct.hpp\n'}
+[1.924318] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg/detail/cmd_and_pose_vel__builder.hpp\n'}
+[1.924363] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.924405] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg/cmd_and_pose_vel.hpp\n'}
+[1.924447] (my_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs\n'}
+[1.924488] (my_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg\n'}
+[1.924554] (my_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg/detail\n'}
+[1.924596] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.924639] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg/detail/dds_fastrtps\n'}
+[1.924681] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.924722] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/lib/libmy_package_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.924762] (my_package_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2/install/my_package_msgs/lib/libmy_package_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[1.924825] (my_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs\n'}
+[1.924916] (my_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg\n'}
+[1.924957] (my_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg/detail\n'}
+[1.924994] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg/detail/cmd_and_pose_vel__type_support.cpp\n'}
+[1.925036] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/include/my_package_msgs/my_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.925080] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/lib/libmy_package_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.925122] (my_package_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2/install/my_package_msgs/lib/libmy_package_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[1.925180] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/lib/libmy_package_msgs__rosidl_typesupport_cpp.so\n'}
+[1.925225] (my_package_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2/install/my_package_msgs/lib/libmy_package_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[1.925266] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/environment/pythonpath.sh\n'}
+[1.925329] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/environment/pythonpath.dsv\n'}
+[1.925378] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/local/lib/python3.10/dist-packages/my_package_msgs-0.0.0-py3.10.egg-info\n'}
+[1.925424] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/local/lib/python3.10/dist-packages/my_package_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.925465] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/local/lib/python3.10/dist-packages/my_package_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.925506] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/local/lib/python3.10/dist-packages/my_package_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.925546] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/local/lib/python3.10/dist-packages/my_package_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.925587] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/local/lib/python3.10/dist-packages/my_package_msgs\n'}
+[1.925647] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/local/lib/python3.10/dist-packages/my_package_msgs/_my_package_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[1.925743] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/local/lib/python3.10/dist-packages/my_package_msgs/my_package_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.925798] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/local/lib/python3.10/dist-packages/my_package_msgs/_my_package_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.925839] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/local/lib/python3.10/dist-packages/my_package_msgs/msg\n'}
+[1.925886] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/local/lib/python3.10/dist-packages/my_package_msgs/msg/_cmd_and_pose_vel.py\n'}
+[1.925929] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/local/lib/python3.10/dist-packages/my_package_msgs/msg/__init__.py\n'}
+[1.925970] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/local/lib/python3.10/dist-packages/my_package_msgs/msg/_cmd_and_pose_vel_s.c\n'}
+[1.926011] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/local/lib/python3.10/dist-packages/my_package_msgs/my_package_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.926050] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/local/lib/python3.10/dist-packages/my_package_msgs/_my_package_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.926106] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/local/lib/python3.10/dist-packages/my_package_msgs/libmy_package_msgs__rosidl_generator_py.so\n'}
+[1.926140] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/local/lib/python3.10/dist-packages/my_package_msgs/__init__.py\n'}
+[1.926173] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/local/lib/python3.10/dist-packages/my_package_msgs/my_package_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.948560] (my_package_msgs) StdoutLine: {'line': b"Listing '/root/ros2/install/my_package_msgs/local/lib/python3.10/dist-packages/my_package_msgs'...\n"}
+[1.948686] (my_package_msgs) StdoutLine: {'line': b"Compiling '/root/ros2/install/my_package_msgs/local/lib/python3.10/dist-packages/my_package_msgs/__init__.py'...\n"}
+[1.948746] (my_package_msgs) StdoutLine: {'line': b"Listing '/root/ros2/install/my_package_msgs/local/lib/python3.10/dist-packages/my_package_msgs/msg'...\n"}
+[1.948790] (my_package_msgs) StdoutLine: {'line': b"Compiling '/root/ros2/install/my_package_msgs/local/lib/python3.10/dist-packages/my_package_msgs/msg/__init__.py'...\n"}
+[1.948830] (my_package_msgs) StdoutLine: {'line': b"Compiling '/root/ros2/install/my_package_msgs/local/lib/python3.10/dist-packages/my_package_msgs/msg/_cmd_and_pose_vel.py'...\n"}
+[1.951110] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/local/lib/python3.10/dist-packages/my_package_msgs/my_package_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.951560] (my_package_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2/install/my_package_msgs/local/lib/python3.10/dist-packages/my_package_msgs/my_package_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[1.951720] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/local/lib/python3.10/dist-packages/my_package_msgs/my_package_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.952148] (my_package_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2/install/my_package_msgs/local/lib/python3.10/dist-packages/my_package_msgs/my_package_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[1.952311] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/local/lib/python3.10/dist-packages/my_package_msgs/my_package_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.952376] (my_package_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2/install/my_package_msgs/local/lib/python3.10/dist-packages/my_package_msgs/my_package_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[1.952469] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/lib/libmy_package_msgs__rosidl_generator_py.so\n'}
+[1.952574] (my_package_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2/install/my_package_msgs/lib/libmy_package_msgs__rosidl_generator_py.so" to ""\n'}
+[1.952677] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/msg/CmdAndPoseVel.idl\n'}
+[1.952757] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/msg/CmdAndPoseVel.msg\n'}
+[1.952883] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/ament_index/resource_index/package_run_dependencies/my_package_msgs\n'}
+[1.953051] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/ament_index/resource_index/parent_prefix_path/my_package_msgs\n'}
+[1.953185] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/environment/ament_prefix_path.sh\n'}
+[1.953321] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/environment/ament_prefix_path.dsv\n'}
+[1.953439] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/environment/path.sh\n'}
+[1.953563] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/environment/path.dsv\n'}
+[1.953679] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/local_setup.bash\n'}
+[1.953798] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/local_setup.sh\n'}
+[1.953918] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/local_setup.zsh\n'}
+[1.954036] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/local_setup.dsv\n'}
+[1.954150] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/package.dsv\n'}
+[1.954301] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/ament_index/resource_index/packages/my_package_msgs\n'}
+[1.954465] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/cmake/export_my_package_msgs__rosidl_generator_cExport.cmake\n'}
+[1.954594] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/cmake/export_my_package_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.954729] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/cmake/export_my_package_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.954857] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/cmake/export_my_package_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.954993] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/cmake/my_package_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.955123] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/cmake/my_package_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.955254] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/cmake/my_package_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.955319] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/cmake/my_package_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.955389] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/cmake/export_my_package_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.955456] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/cmake/export_my_package_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.955530] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/cmake/export_my_package_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.955587] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/cmake/my_package_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.955650] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/cmake/my_package_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.955715] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/cmake/my_package_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.955779] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/cmake/my_package_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.955846] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/cmake/export_my_package_msgs__rosidl_generator_pyExport.cmake\n'}
+[1.955908] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/cmake/export_my_package_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.955969] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.956029] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.956088] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.956150] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.956213] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.956278] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.956344] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.956405] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/cmake/my_package_msgsConfig.cmake\n'}
+[1.956455] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/cmake/my_package_msgsConfig-version.cmake\n'}
+[1.956513] (my_package_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2/install/my_package_msgs/share/my_package_msgs/package.xml\n'}
+[1.958032] (my_package_msgs) CommandEnded: {'returncode': 0}
+[1.977973] (my_package_msgs) JobEnded: {'identifier': 'my_package_msgs', 'rc': 0}
+[1.978420] (-) EventReactorShutdown: {}

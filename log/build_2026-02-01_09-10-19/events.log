@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.000490] (-) JobUnselected: {'identifier': 'camera_3d_pkg'}
+[0.000551] (-) JobUnselected: {'identifier': 'camera_3d_pkg1'}
+[0.000575] (-) JobUnselected: {'identifier': 'my_opencv_pkg'}
+[0.000593] (-) JobUnselected: {'identifier': 'my_package_msg'}
+[0.000611] (-) JobUnselected: {'identifier': 'my_so_arm_gazebo'}
+[0.000640] (-) JobUnselected: {'identifier': 'robot_arm_control'}
+[0.000659] (-) JobUnselected: {'identifier': 'so_arm101_pkg'}
+[0.000677] (-) JobUnselected: {'identifier': 'yolo_bringup'}
+[0.000694] (-) JobUnselected: {'identifier': 'yolo_msgs'}
+[0.000712] (-) JobUnselected: {'identifier': 'yolo_ros'}
+[0.000733] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000756] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.098552] (-) TimerEvent: {}
+[0.198876] (-) TimerEvent: {}
+[0.237699] (my_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_package', 'build', '--build-base', '/root/ros2/build/my_package/build', 'install', '--record', '/root/ros2/build/my_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/ros2/src/my_package', 'env': {'HOSTNAME': 'acer-notebook', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/ros2/install/my_package_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root/ros2/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/ros2/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'YOLO_CONFIG_DIR': '/tmp/Ultralytics', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/ros2/install/my_package:/root/ros2/install/my_package_msg:/opt/ros/humble', 'PWD': '/root/ros2/build/my_package', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ros2/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2/install/my_package/lib/python3.10/site-packages:/root/ros2/install/my_package/lib/python3.10/site-packages:/root/ros2/install/my_package_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/ros2/install/my_package_msg'}, 'shell': False}
+[0.298977] (-) TimerEvent: {}
+[0.328649] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[0.328887] (my_package) StdoutLine: {'line': b'creating ../../build/my_package/my_package.egg-info\n'}
+[0.328972] (my_package) StdoutLine: {'line': b'writing ../../build/my_package/my_package.egg-info/PKG-INFO\n'}
+[0.329035] (my_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[0.329264] (my_package) StdoutLine: {'line': b'writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt\n'}
+[0.329384] (my_package) StdoutLine: {'line': b'writing requirements to ../../build/my_package/my_package.egg-info/requires.txt\n'}
+[0.329455] (my_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt\n'}
+[0.329517] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[0.329728] (my_package) StdoutLine: {'line': b"reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[0.329852] (my_package) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.330019] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[0.330205] (my_package) StdoutLine: {'line': b'running build\n'}
+[0.330281] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[0.330350] (my_package) StdoutLine: {'line': b'creating /root/ros2/build/my_package/build\n'}
+[0.330416] (my_package) StdoutLine: {'line': b'creating /root/ros2/build/my_package/build/lib\n'}
+[0.330482] (my_package) StdoutLine: {'line': b'creating /root/ros2/build/my_package/build/lib/my_package\n'}
+[0.330546] (my_package) StdoutLine: {'line': b'copying my_package/my_node.py -> /root/ros2/build/my_package/build/lib/my_package\n'}
+[0.330666] (my_package) StdoutLine: {'line': b'copying my_package/sub_node.py -> /root/ros2/build/my_package/build/lib/my_package\n'}
+[0.330755] (my_package) StdoutLine: {'line': b'copying my_package/video_person_detection_node.py -> /root/ros2/build/my_package/build/lib/my_package\n'}
+[0.330815] (my_package) StdoutLine: {'line': b'copying my_package/pub_node.py -> /root/ros2/build/my_package/build/lib/my_package\n'}
+[0.330886] (my_package) StdoutLine: {'line': b'copying my_package/examples.py -> /root/ros2/build/my_package/build/lib/my_package\n'}
+[0.330942] (my_package) StdoutLine: {'line': b'copying my_package/__init__.py -> /root/ros2/build/my_package/build/lib/my_package\n'}
+[0.330998] (my_package) StdoutLine: {'line': b'copying my_package/cmd_pose.py -> /root/ros2/build/my_package/build/lib/my_package\n'}
+[0.331055] (my_package) StdoutLine: {'line': b'running install\n'}
+[0.331112] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[0.331175] (my_package) StdoutLine: {'line': b'creating /root/ros2/install/my_package/lib/python3.10/site-packages/my_package\n'}
+[0.331233] (my_package) StdoutLine: {'line': b'copying /root/ros2/build/my_package/build/lib/my_package/my_node.py -> /root/ros2/install/my_package/lib/python3.10/site-packages/my_package\n'}
+[0.331290] (my_package) StdoutLine: {'line': b'copying /root/ros2/build/my_package/build/lib/my_package/sub_node.py -> /root/ros2/install/my_package/lib/python3.10/site-packages/my_package\n'}
+[0.331347] (my_package) StdoutLine: {'line': b'copying /root/ros2/build/my_package/build/lib/my_package/video_person_detection_node.py -> /root/ros2/install/my_package/lib/python3.10/site-packages/my_package\n'}
+[0.331404] (my_package) StdoutLine: {'line': b'copying /root/ros2/build/my_package/build/lib/my_package/pub_node.py -> /root/ros2/install/my_package/lib/python3.10/site-packages/my_package\n'}
+[0.331464] (my_package) StdoutLine: {'line': b'copying /root/ros2/build/my_package/build/lib/my_package/examples.py -> /root/ros2/install/my_package/lib/python3.10/site-packages/my_package\n'}
+[0.331528] (my_package) StdoutLine: {'line': b'copying /root/ros2/build/my_package/build/lib/my_package/__init__.py -> /root/ros2/install/my_package/lib/python3.10/site-packages/my_package\n'}
+[0.331599] (my_package) StdoutLine: {'line': b'copying /root/ros2/build/my_package/build/lib/my_package/cmd_pose.py -> /root/ros2/install/my_package/lib/python3.10/site-packages/my_package\n'}
+[0.331678] (my_package) StdoutLine: {'line': b'byte-compiling /root/ros2/install/my_package/lib/python3.10/site-packages/my_package/my_node.py to my_node.cpython-310.pyc\n'}
+[0.331734] (my_package) StdoutLine: {'line': b'byte-compiling /root/ros2/install/my_package/lib/python3.10/site-packages/my_package/sub_node.py to sub_node.cpython-310.pyc\n'}
+[0.331791] (my_package) StdoutLine: {'line': b'byte-compiling /root/ros2/install/my_package/lib/python3.10/site-packages/my_package/video_person_detection_node.py to video_person_detection_node.cpython-310.pyc\n'}
+[0.332149] (my_package) StdoutLine: {'line': b'byte-compiling /root/ros2/install/my_package/lib/python3.10/site-packages/my_package/pub_node.py to pub_node.cpython-310.pyc\n'}
+[0.332374] (my_package) StdoutLine: {'line': b'byte-compiling /root/ros2/install/my_package/lib/python3.10/site-packages/my_package/examples.py to examples.cpython-310.pyc\n'}
+[0.332636] (my_package) StdoutLine: {'line': b'byte-compiling /root/ros2/install/my_package/lib/python3.10/site-packages/my_package/__init__.py to __init__.cpython-310.pyc\n'}
+[0.332706] (my_package) StdoutLine: {'line': b'byte-compiling /root/ros2/install/my_package/lib/python3.10/site-packages/my_package/cmd_pose.py to cmd_pose.cpython-310.pyc\n'}
+[0.332881] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[0.332954] (my_package) StdoutLine: {'line': b'creating /root/ros2/install/my_package/share/ament_index\n'}
+[0.333018] (my_package) StdoutLine: {'line': b'creating /root/ros2/install/my_package/share/ament_index/resource_index\n'}
+[0.333082] (my_package) StdoutLine: {'line': b'creating /root/ros2/install/my_package/share/ament_index/resource_index/packages\n'}
+[0.333145] (my_package) StdoutLine: {'line': b'copying resource/my_package -> /root/ros2/install/my_package/share/ament_index/resource_index/packages\n'}
+[0.333214] (my_package) StdoutLine: {'line': b'copying package.xml -> /root/ros2/install/my_package/share/my_package\n'}
+[0.333276] (my_package) StdoutLine: {'line': b'creating /root/ros2/install/my_package/share/my_package/launch\n'}
+[0.333339] (my_package) StdoutLine: {'line': b'copying launch/my_package.launch.py -> /root/ros2/install/my_package/share/my_package/launch\n'}
+[0.333420] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.333733] (my_package) StdoutLine: {'line': b'Copying ../../build/my_package/my_package.egg-info to /root/ros2/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info\n'}
+[0.333967] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[0.342846] (my_package) StdoutLine: {'line': b'Installing my_node script to /root/ros2/install/my_package/lib/my_package\n'}
+[0.342955] (my_package) StdoutLine: {'line': b'Installing pub_node script to /root/ros2/install/my_package/lib/my_package\n'}
+[0.343017] (my_package) StdoutLine: {'line': b'Installing sub_node script to /root/ros2/install/my_package/lib/my_package\n'}
+[0.343070] (my_package) StdoutLine: {'line': b'Installing video_person_detection script to /root/ros2/install/my_package/lib/my_package\n'}
+[0.343154] (my_package) StdoutLine: {'line': b"writing list of installed files to '/root/ros2/build/my_package/install.log'\n"}
+[0.352883] (my_package) CommandEnded: {'returncode': 0}
+[0.367707] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[0.368134] (-) EventReactorShutdown: {}

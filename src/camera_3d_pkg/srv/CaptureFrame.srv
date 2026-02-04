@@ -1,0 +1,10 @@
+# Request: Capture parameters
+string camera_type
+bool save_image
+string output_path
+---
+# Response: Capture result
+bool success
+string message
+string depth_frame_id
+string rgb_frame_id

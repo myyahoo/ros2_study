@@ -1,0 +1,7 @@
+.git
+.venv
+*.pt
+src/datasets
+srs/yolo_ros
+datasets
+yolo_ros

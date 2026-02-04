@@ -1,0 +1,2 @@
+Invoking command in '/home/tech/ros2/my_first_ws/build/my_package_msgs': /usr/bin/cmake /home/tech/ros2/my_first_ws/src/my_package_msgs -DCMAKE_INSTALL_PREFIX=/home/tech/ros2/my_first_ws/install/my_package_msgs
+Invoked command in '/home/tech/ros2/my_first_ws/build/my_package_msgs' returned '1': /usr/bin/cmake /home/tech/ros2/my_first_ws/src/my_package_msgs -DCMAKE_INSTALL_PREFIX=/home/tech/ros2/my_first_ws/install/my_package_msgs

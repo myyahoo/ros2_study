@@ -1,0 +1,83 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+      Splitter Ratio: 0.5
+    Tree Height: 500
+  - Class: rviz_common/Selection
+    Name: Selection
+  - Class: rviz_common/Tool Properties
+    Name: Tool Properties
+    Splitter Ratio: 0.5
+  - Class: rviz_common/Views
+
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz_default_plugins/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Name: Grid
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Alpha: 1
+      Class: rviz_default_plugins/RobotModel
+      Enabled: true
+      Name: RobotModel
+      Robot Description: robot_description
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Fixed Frame: base_link
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/FocusCamera
+  Value: true
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 1.5
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.06
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: 0
+        Y: 0
+        Z: 0
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.05
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.01
+      Pitch: 0.785398
+      Target Frame: <Fixed Frame>
+      Value: Orbit (rviz_default_plugins)
+      Yaw: 0.785398
+    Saved Views: {}
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 1043
+  Hide Left Dock: false
+  Hide Right Dock: false
+  QMainWindow State: 000000ff00000000fd0000000100000000000004b40000037cfc0200000008fb0000001200530065006c0065006300740069006f006e00000001460000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f0070006500720074006900650073020000087f0000027f0000005c00fffffffb0000000a0056006900650077007300000001cc000001cc000000a400fffffffb0000000c00470072006900640020000000000000012c0000010d00fffffffb0000001200530065006c0065006300740069006f006e0100000000ffffffff0000005c00fffffffb0000000a005600690065007700000002dd000001ad000000a400fffffffb0000001e0054006f006f006c002000500072006f0070006500720074006900650073010000346000000254000000000000000fb000000e0054006f006f006c002000500072006f0070006500720074006900650073020000087f000002050000005c00000000000007400000037c00000001000000020000000100000002fc00000000fc00000000fc0000000000000000000000000000000001000000020000000400fffffffb0000001200530065006c0065006300740069006f006e00000001460000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f0070006500720074006900650073020000087f0000027f0000005c00fffffffb0000000a0056006900650077007300000001cc000001cc000000a400ffffff0000000000000000
+  Selection:
+    collapsed: false
+  Tool Properties:
+    collapsed: false
+  Views:
+    collapsed: true
+  Width: 1920
+  X: 0
+  Y: 0
