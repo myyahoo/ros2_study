@@ -1,6 +1,7 @@
 .git
 .venv
 *.pt
+.gitignore
 src/datasets
 srs/yolo_ros
 datasets
