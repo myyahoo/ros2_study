@@ -1,2 +1,0 @@
-Invoking command in '/home/tech/ros2/my_first_ws/build/my_package_msgs': /usr/bin/cmake --build /home/tech/ros2/my_first_ws/build/my_package_msgs -- -j24 -l24
-Invoked command in '/home/tech/ros2/my_first_ws/build/my_package_msgs' returned '2': /usr/bin/cmake --build /home/tech/ros2/my_first_ws/build/my_package_msgs -- -j24 -l24
