@@ -1,6 +1,5 @@
 #!/bin/bash
 # Build script for camera_3d_pkg
-
 set -e
 
 echo "=========================================="
