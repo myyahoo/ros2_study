@@ -1,9 +1,0 @@
-[console_scripts]
-cmd_pose = my_package.cmd_pose:main
-my_action = my_package.my_action:main
-my_node = my_package.my_node:main
-my_service = my_package.my_service:main
-pub_node = my_package.pub_node:main
-sub_node = my_package.sub_node:main
-video_person_detection = my_package.video_person_detection_node:main
-
