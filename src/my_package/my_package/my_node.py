@@ -48,7 +48,7 @@ class YOLOPersonDetector:
         if results and len(results) > 0:
             result = results[0]
             # 탐지된 객체 처리
-            if result.boxes is not None:
+            if result.boxes is not None: 
                 boxes_len = len(result.boxes)   
                 print(f"result.boxes length is ========={boxes_len}")
                 print(f"result.boxes is ========={result.boxes}")
