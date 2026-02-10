@@ -1,6 +1,7 @@
 from rclpy.node import Node
 from my_package_msgs.msg import CmdAndPoseVel
 
+
 class CmdPoseNode(Node):
     def __init__(self):
         super().__init__('cmd_pose_node')
