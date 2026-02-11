@@ -18,8 +18,8 @@ def generate_launch_description():
     )
     
     # LaunchConfiguration으로 argument 참조
-    video_source = LaunchConfiguration('video_source')
-    model_path = LaunchConfiguration('model_path')
+    #video_source = LaunchConfiguration('video_source')
+    #model_path = LaunchConfiguration('model_path')
     
     node1 = Node(
         package="my_package",
@@ -27,8 +27,8 @@ def generate_launch_description():
         name="video_person_detection_node",
         output="screen",
         parameters=[
-            {"video_source": video_source},
-            {"model_path": model_path},
+            {"video_source": LaunchConfiguration('video_source')},
+            {"model_path": LaunchConfiguration('model_path')},
         ]
     )
 
@@ -38,10 +38,15 @@ def generate_launch_description():
         name="sub_node",
         output="screen",
     )
-
+    pub_node = Node(
+        package="my_package",
+        executable="pub_node",
+        name="pub_node",
+    )
     return LaunchDescription([
         video_source_arg,
         model_path_arg,
         node1,
         node2,
+        pub_node,   
     ])
