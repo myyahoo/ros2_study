@@ -35,6 +35,7 @@ setup(
             'my_service = my_package.my_service:main',
             'my_action = my_package.my_action:main',
             'my_tf1 = my_package.my_tf:main',
+            'tf_child_frame = my_package.tf_child:main',
         ],
     },
 )
