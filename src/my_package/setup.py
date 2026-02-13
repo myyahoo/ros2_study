@@ -37,6 +37,7 @@ setup(
             'my_tf1 = my_package.my_tf:main',
             'tf_child_frame = my_package.tf_child:main',
             'tf_combined = my_package.tf_combined:main',
+            'tf_distance_pub = my_package.tf_distance_pub:main',
 
         ],
     },
