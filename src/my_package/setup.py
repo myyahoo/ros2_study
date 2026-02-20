@@ -38,6 +38,8 @@ setup(
             'tf_child_frame = my_package.tf_child:main',
             'tf_combined = my_package.tf_combined:main',
             'tf_distance_pub = my_package.tf_distance_pub:main',
+            'tf_trail_marker = my_package.tf_trail_marker:main',
+             'opencv_pub = my_package.opencv_pub:main',
 
         ],
     },

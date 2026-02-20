@@ -7,7 +7,7 @@ class TfDistancePublisher(Node):
     def __init__(self):
         super().__init__('tf_distance_publisher')
         self.tf_buffer = tf2_ros.Buffer()
-        #self.tf_listener = tf2_ros.TransformListener(self.tf_buffer, self)
+        self.tf_listener = tf2_ros.TransformListener(self.tf_buffer, self)
         self.pub = self.create_publisher(Float32, 'tf_distance', 10)
         self.timer = self.create_timer(0.1, self.timer_callback)
 
